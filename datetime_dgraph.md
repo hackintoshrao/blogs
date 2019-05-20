@@ -119,7 +119,7 @@ Hence, for timestamp `2019-03-28T14:41:57+06:00`, the `Hour()` function will ret
 value `14` and for timestamp `2019-03-28T14:41:57+00:00`, the `Hour()` function will still
 return the same value `14`. Due to this behavior, the index is not correctly built.
 
-## Root Cause
+### Root Cause
 Now, in our example above, the data has two timestamps 1)`2019-03-28T14:41:57-06:00` and
 2) `2019-03-28T18:40:57+01:00` and we have created `hour` index on the `created_at`
 predicate. The `hour` index will **incorrectly** store roughly following information -

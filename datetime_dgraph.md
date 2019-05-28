@@ -1,10 +1,7 @@
-I recently started working for Dgraph Labs. I was the first employee to join the India office,
-and now, we have grown to a team of 5 engineers. And, [we are hiring](https://dgraph.io/careers).
-If you are looking for challenging distributed systems work, or excited about GraphQL,
-feel free to reach out to us.
+As a passionate and competative distibuted engineer, its a treat to be at Dgraph labs! You never run out of challenging, intriguing and at times intimidating distributed systems problems to solve. This is a short blog about one among many such interesting problem I encountered and how I went about solving it! 
 
-One of the first issue that I solved after joining Dgraph, is an issue with Dgraph's datetime
-datatype. In this article, I talk about how I discovered the issue and then, resolved it.
+This issue in particular about which I'll be discussing in detail is related to Dgraph's datetime datatype.
+
 
 ### Bug Discovery
 While working on [Flock](https://github.com/dgraph-io/flock), I observed that timestamp
@@ -177,3 +174,9 @@ the index, we will see both the users. The correct response will, therefore, loo
 ```
 
 You can see that both the users are included in this response.
+
+
+I'm Aman, Now as you already know I'm a distributed systems engineer at Dgraph Labs. 
+I joined as Dgraph's first engineer at our India office, now we have grown to a team of 5 engineers. I guess this blog gives you a taste of a day of work at Dgraph labs :) If Dgraph sounds exciting to you come join us, [we are hiring!](https://dgraph.io/careers).
+
+
